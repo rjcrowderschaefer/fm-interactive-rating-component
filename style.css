@@ -62,27 +62,74 @@ main {
   width: 327px;
   height: 360px;
   background-image: linear-gradient(#222933, #181E27);
-  border-radius: 15px
+  border-radius: 15px;
+  margin-bottom: 10px;
 }
 
 #rating-state-container {
   margin: 24px 24px 30px 24px
 }
 
-.icon-star {
-  background-color: red;
+.icon-container {
+  background-color: #262E38;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
 }
 
 #h1-rating {
   color: #ffffff;
   font-size: 2.4rem;
+  word-spacing: 3px;
 }
 
 .rating-description {
   color: #969FAD;
   font-size: 1.4rem;
+  line-height: 2.1rem;
+  word-spacing: .8px;
+  text-align: left;
 }
 
-.icon-star {
-  justify-content;
+.rating-nums {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.rating-num {
+  background-color: #262E38;
+  border-radius: 50px;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  color: #7C8798
+}
+
+button {
+  width: 100%;
+  background-color: #FC7614;
+  color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+button:active {
+  background-color: #ffffff;
+  color: #FC7614;
+}
+
+.attribution a {
+  color: #969FAD;
 }
