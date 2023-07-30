@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+  font-family: "Overpass";
 }
 
 * {
@@ -14,6 +17,7 @@ html {
   text-size-adjust: none;
   scroll-behavior: smooth;
   background-color: #141519;
+  color: white;
 }
 
 img {
@@ -44,4 +48,41 @@ a {
 }
 :focus:not(:focus-visible) {
   outline: none;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#primary-container { 
+  width: 327px;
+  height: 360px;
+  background-image: linear-gradient(#222933, #181E27);
+  border-radius: 15px
+}
+
+#rating-state-container {
+  margin: 24px 24px 30px 24px
+}
+
+.icon-star {
+  background-color: red;
+}
+
+#h1-rating {
+  color: #ffffff;
+  font-size: 2.4rem;
+}
+
+.rating-description {
+  color: #969FAD;
+  font-size: 1.4rem;
+}
+
+.icon-star {
+  justify-content;
 }
