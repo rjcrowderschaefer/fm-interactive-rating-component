@@ -28,11 +28,11 @@ Users should be able to:
 
 ### Screenshot
 
-!Mobile Views:
+#### Mobile Views:
 - [How Did We Do View](https://i.imgur.com/zgVykxy.png)
 - [Thank You View](https://i.imgur.com/oj4xbIZ.png)
 
-!Desktop Views:
+#### Desktop Views:
 - [How Did We Do View](https://i.imgur.com/uUea68f.png)
 - [Thank You View](https://i.imgur.com/uUea68f.png)
 
