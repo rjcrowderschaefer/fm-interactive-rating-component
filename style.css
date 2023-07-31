@@ -150,6 +150,42 @@ button:active {
   color: #ffffff;
 }
 
-.attribution a {
+#thank-you-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 24px 24px 30px 24px
+}
+
+.icon-thank-you {
+  margin-top: 15px;
+}
+
+.selection {
+  background-color: #262E38;
+  color: #FC7614;
+  padding: 8px 15px;
+  font-size: 1.4rem;
+  border-radius: 25px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.h1-thank-you {
+  font-size: 2.4rem;
+  word-spacing: 3px;
+  color: #ffffff;
+}
+
+.thank-you-description {
   color: #969FAD;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  word-spacing: .8px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.attribution a {
+  color: #FC7614;
 }
