@@ -89,7 +89,7 @@ main {
 .rating-description {
   color: #969FAD;
   font-size: 1.4rem;
-  line-height: 2.1rem;
+  line-height: 2.2rem;
   word-spacing: .8px;
   text-align: left;
 }
@@ -188,4 +188,61 @@ button:active {
 
 .attribution a {
   color: #FC7614;
+}
+
+@media only screen and (min-width: 450px) {
+
+  #primary-container { 
+    width: 412px;
+    height: 416px;
+    background-image: linear-gradient(#222933, #181E27);
+    border-radius: 15px;
+    margin-bottom: 10px;
+  }
+
+  #rating-state-container {
+    margin: 35px 35px 25px 35px
+  }
+
+  .icon-container {
+    width: 58px;
+    height: 58px;
+  }
+
+  #h1-rating {
+    font-size: 2.8rem;
+  }
+  
+  .rating-description {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+  }
+
+  .rating-num {
+    width: 51px;
+    height: 51px;
+    font-size: 1.6rem;
+  }
+
+  .icon-thank-you {
+    margin-top: 20px;
+  }
+
+  .selection {
+    margin-top: 35px;
+    font-size: 1.5rem;
+  }
+
+  .h1-thank-you {
+    font-size: 2.8rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+
+  .thank-you-description {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    margin: 0 5px 0 5px;
+  }
+
 }
