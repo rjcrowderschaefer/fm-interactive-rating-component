@@ -113,6 +113,14 @@ main {
   color: #7C8798
 }
 
+
+.rating-num:hover {
+  background-color: #7C8798;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+
 button {
   width: 100%;
   background-color: #FC7614;
@@ -125,9 +133,21 @@ button {
   font-weight: 700;
 }
 
+button:hover {
+  background-color: #ffffff;
+  color: #FC7614;
+  cursor: pointer;
+}
+
 button:active {
   background-color: #ffffff;
   color: #FC7614;
+  cursor: pointer;
+}
+
+.rating-num:focus {
+  background-color: #FC7614;
+  color: #ffffff;
 }
 
 .attribution a {
